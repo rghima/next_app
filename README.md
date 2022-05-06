@@ -34,9 +34,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # next_app
 
-## Tips and Tricks
+# Tips and Tricks
 
-# Display git branch name in prompt
+## Display git branch name in prompt
 
 Add this to your `~/.bashrc file` :
 
@@ -45,7 +45,7 @@ Add this to your `~/.bashrc file` :
 }
 export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "`*
 
-# Add git alias
+## Add git alias
 
 Speed up your git commands !
 
@@ -53,15 +53,11 @@ Speed up your git commands !
 *`git config --global alias.st status`*
 
 
+## Save your github token in Git config
 
+Enter this command
 
+*`git config --global credential.helper store`*
 
-
-
-
-
-
-
-
-
+And during your next push, your credentials will be saved for eternity : )
 
